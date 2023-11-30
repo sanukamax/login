@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('https://www.contentcreatures.com/wp-content/uploads/2020/02/Smart-City-E.ON_.gif') ;
+    background-size: cover;
+}
+
+.user {
+   
+}
+input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 5px rgba(207, 14, 181, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
